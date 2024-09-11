@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionService", "TransactionService\TransactionService.csproj", "{3C10A211-7681-4D26-AE23-0079D85F8ED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FraudPatternService", "FraudPatternService\FraudPatternService.csproj", "{52FF814D-CED6-43C5-BBEF-8E5246535B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLAnalysisService", "MLAnalysisService\MLAnalysisService.csproj", "{375B4106-FA9F-4E0A-9D72-AFCE78AFF328}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountHistoryService", "AccountHistoryService\AccountHistoryService.csproj", "{72F39E55-53A2-49AF-A978-85BAFA22907E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "NotificationService\NotificationService.csproj", "{932D213E-07A8-4210-97A5-BE2B36F92F94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FraudDetectionWorkflow", "FraudDetectionWorkflow\FraudDetectionWorkflow.csproj", "{FE049081-D4AD-4C43-B01F-21D834384FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C59C77F5-CCA9-438E-AEFF-E92866FC197C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C10A211-7681-4D26-AE23-0079D85F8ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C10A211-7681-4D26-AE23-0079D85F8ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C10A211-7681-4D26-AE23-0079D85F8ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C10A211-7681-4D26-AE23-0079D85F8ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FF814D-CED6-43C5-BBEF-8E5246535B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FF814D-CED6-43C5-BBEF-8E5246535B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FF814D-CED6-43C5-BBEF-8E5246535B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FF814D-CED6-43C5-BBEF-8E5246535B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375B4106-FA9F-4E0A-9D72-AFCE78AFF328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375B4106-FA9F-4E0A-9D72-AFCE78AFF328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375B4106-FA9F-4E0A-9D72-AFCE78AFF328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375B4106-FA9F-4E0A-9D72-AFCE78AFF328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F39E55-53A2-49AF-A978-85BAFA22907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F39E55-53A2-49AF-A978-85BAFA22907E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F39E55-53A2-49AF-A978-85BAFA22907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F39E55-53A2-49AF-A978-85BAFA22907E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932D213E-07A8-4210-97A5-BE2B36F92F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932D213E-07A8-4210-97A5-BE2B36F92F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932D213E-07A8-4210-97A5-BE2B36F92F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932D213E-07A8-4210-97A5-BE2B36F92F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE049081-D4AD-4C43-B01F-21D834384FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE049081-D4AD-4C43-B01F-21D834384FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE049081-D4AD-4C43-B01F-21D834384FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE049081-D4AD-4C43-B01F-21D834384FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D9DAA47-1432-45F2-8BAA-5E931AFFD3A4}
+	EndGlobalSection
+EndGlobal
