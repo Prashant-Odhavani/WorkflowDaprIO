@@ -22,11 +22,9 @@ builder.Services.AddDaprWorkflow(options =>
 
 var app = builder.Build();
 
-// Enable Dapr to handle events and service invocations
 app.UseCloudEvents();
 app.MapSubscribeHandler();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

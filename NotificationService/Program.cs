@@ -19,7 +19,7 @@ app.UseHttpsRedirection();
 
 app.MapPost("/api/notify", ([FromBody] FraudDetectionResult fraudDetectionResult) =>
 {
-    Console.WriteLine($"notificationservice notify: Transaction ID: {fraudDetectionResult.TransactionId}, Is Fraud: {fraudDetectionResult.IsFraud}");
+    Console.WriteLine($"notificationservice sending notification: Transaction ID: {fraudDetectionResult.TransactionId}, Is Fraud: {fraudDetectionResult.IsFraud}");
     return Results.Ok(fraudDetectionResult);
 });
 
